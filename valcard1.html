@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="valen.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        
+    $(document).ready(function () {
+        $('.container').mouseenter(function () {
+            $('.card').stop().animate({
+                top: '-100px'
+            }, 'slow');
+        }).mouseleave(function () {
+            $('.card').stop().animate({
+                top: 0
+            }, 'slow');
+        });
+    });
+
+        </script>
+</head>
+<body>
+<div id="player">
+    <audio controls autoplay hidden>
+        <source src="audio.mp3" type="audio/mpeg">
+                unsupported !! 
+    </audio>
+</div>
+    </div>
+    </div>
+    <div class="container">  
+        <div class="valentines">
+          <div class="envelope"></div>
+          <div class="front"></div>
+          <div class="card">
+            <div class="text">Happy</br> Valentine's Day!</br> <a href="https://www.youtube.com/watch?v=tyKu0uZS86Q" target="_blank">Raymund</a></div>
+            <div class="heart" ></div>
+            <div class="hearts">
+              <div class="one"></div>
+              <div class="two"></div>
+              <div class="three"></div>
+              <div class="four"></div>
+              <div class="five"></div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+</body>
+</html>
